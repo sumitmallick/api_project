@@ -21,6 +21,8 @@ from api.views import *
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'groups', GroupViewSet)
+router.register(r'userdata', UserDataViewSet)
+router.register(r'activity', ActivityViewSet)
 
 
 
